@@ -1,0 +1,32 @@
+.dashboard-main {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  padding: 1rem;
+  height: 560px;
+}
+
+.dashboard-top {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  /* flex-wrap: wrap; */
+}
+.dashboard-up{
+  display: grid;
+}
+.dashboard-middle {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.dashboard-bottom {
+  width: 100%;
+}
+
+@media (max-width: 1060px) {
+  .dashboard-top, .dashboard-middle,.dashboard-main {
+    flex-direction: column;
+  }
+}

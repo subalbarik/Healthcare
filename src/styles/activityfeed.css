@@ -1,0 +1,78 @@
+.activity-feed {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  margin-top: 20px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.heading h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.heading p {
+  font-size: 13px;
+  color: #888;
+  margin: 0;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 120px;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar-group {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  align-items: flex-end;
+  margin-bottom: 6px;
+}
+.day-label {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+}
+
+/* Existing styles remain unchanged above this line */
+
+.bar {
+  width: 6px;
+  border-radius: 3px;
+  background-color: #ccc;
+  height: 0;
+  transition: height 0.6s ease-in-out;
+}
+
+/* Colored bars */
+.bar-0 {
+  background-color: #dcd8ff;
+}
+.bar-1 {
+  background-color: #00d1ff;
+}
+.bar-2 {
+  background-color: #6c63ff;
+}
+
+/* Animate height using CSS variable */
+.animate-bar {
+  height: var(--bar-height);
+}

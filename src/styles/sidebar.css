@@ -1,0 +1,38 @@
+.logo{
+font-size: 30px;
+display: flex;
+  font-weight: bolder;
+
+}
+.logoname{
+  color: aqua;
+}
+.sidebar{
+  padding: 20px 40px 0px 40px;
+}
+.nav-title{
+  color: rgb(130, 157, 181);
+}
+.nav-item{
+  list-style: none;
+  padding-top: 15px;
+  color: rgb(106, 106, 106);
+}
+.navbar-item{
+  list-style: none;
+  padding-top: 15px;
+  color: rgb(106, 106, 106);
+
+}
+.contents{
+  padding-left: 10px;
+}
+.navbar-item:last-child{
+  margin-top: 180px;
+}
+.nav-item:first-child{
+  padding-top: 0;
+font-size: 18px;
+font-weight: bolder;
+color: black;
+}
